@@ -30,13 +30,20 @@ namespace SkulltagConfGenerator.GUI.ViewModel.Flags {
 
 			set {
 				DMFlags flag = (DMFlags)value;
+				IEnumerable<DMFlags> splitFlags = flag.GetIndividualValues<DMFlags>();
+				IEnumerable<string> splitFlagsAlternateNames = splitFlags.Select(x => x.GetFirstAlternateName());
 
-				IEnumerable<DMFlags> flags = flag.GetIndividualValues<DMFlags>();
-				//var mergedFlags = this.flags.Join(flags, flagValue => flagValue.Value, dmflags => (int)dmflags, (flagValue, dmflags) => new { });
-				var selectedFlags = flags.Join(this.flags, flagName => flagName.GetFirstAlternateName(), x => x.Name, (flagName, x) => new { SelectedFlagName = flagName, FlagName = x });
-				foreach(var item in this.flags) {
+				IEnumerable<DMFlag> enabledFlags = this.flags.Where(dmflag => splitFlagsAlternateNames.Contains(dmflag.Name));
+
+				foreach(DMFlag dmflag in this.flags) {
+					dmflag.IsEnabled = false;
+				}
+
+				foreach(var item in enabledFlags) {
 					item.IsEnabled = true;
 				}
+
+				this.RaisePropertyChanged("FlagsValue");
 			}
 		}
 
