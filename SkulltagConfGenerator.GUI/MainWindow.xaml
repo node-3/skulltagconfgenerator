@@ -1,0 +1,32 @@
+﻿<Window x:Class="SkulltagConfGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:st="clr-namespace:SkulltagConfGenerator.GUI.UserControls"
+        Title="MainWindow"
+        Height="460"
+        Width="600">
+
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top" IsMainMenu="True">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open" Command="{Binding Path=OpenFile}"/>
+                <MenuItem Header="_Save" />
+                <MenuItem Header="_Save As" />
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About" />
+            </MenuItem>
+        </Menu>
+        <DockPanel LastChildFill="True" DockPanel.Dock="Bottom">
+            <!--<StackPanel Orientation="Vertical" DockPanel.Dock="Left">
+                <Expander Header="Display" x:Name="DisplayOptionsContainer" />
+                <Expander Header="Gameplay" x:Name="GameplayOptionsContainer" />
+                <Expander Header="Backend" x:Name="BackendOptionsContainer" />
+            </StackPanel>
+            <TextBlock DockPanel.Dock="Right" IsEnabled="False" />-->
+			<st:DMFlagsUserControl />
+        </DockPanel>
+    </DockPanel>
+</Window>
