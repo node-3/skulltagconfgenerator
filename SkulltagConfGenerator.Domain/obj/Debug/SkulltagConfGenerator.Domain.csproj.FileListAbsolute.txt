@@ -1,0 +1,12 @@
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\bin\Debug\SkulltagConfGenerator.Domain.dll
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\bin\Debug\SkulltagConfGenerator.Domain.pdb
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\bin\Debug\SkulltagConfGenerator.Domain.dll.CodeAnalysisLog.xml
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\bin\Debug\SkulltagConfGenerator.Domain.dll.lastcodeanalysissucceeded
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\bin\Debug\SkulltagConfGenerator.Enumerations.dll
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\bin\Debug\SkulltagConfGenerator.Enumerations.pdb
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\obj\Debug\SkulltagConfGenerator.Domain.Properties.Resources.resources
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\obj\Debug\SkulltagConfGenerator.Domain.dll
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Domain\obj\Debug\SkulltagConfGenerator.Domain.pdb

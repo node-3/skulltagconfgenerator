@@ -1,0 +1,5 @@
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Enumerations\bin\Debug\SkulltagConfGenerator.Enumerations.dll
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Enumerations\bin\Debug\SkulltagConfGenerator.Enumerations.pdb
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Enumerations\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Enumerations\obj\Debug\SkulltagConfGenerator.Enumerations.dll
+C:\Users\Admin\git\skulltagconfgenerator\SkulltagConfGenerator.Enumerations\obj\Debug\SkulltagConfGenerator.Enumerations.pdb
